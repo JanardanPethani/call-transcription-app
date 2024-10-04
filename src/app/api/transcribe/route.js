@@ -20,7 +20,7 @@ export async function POST(req) {
     const transcript = await client.transcripts.transcribe({
       audio: buffer,
       speaker_labels: true,
-      speech_model: "best",
+      speech_model: "nano",
       language_detection: true,
     });
     console.log("🚀 ~ POST ~ transcript:", transcript);
