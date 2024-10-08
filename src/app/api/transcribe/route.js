@@ -30,7 +30,7 @@ export async function POST(req) {
     console.error("Error:", error);
     return NextResponse.json(
       { error: "Failed to transcribe audio" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

@@ -65,7 +65,7 @@ export default function Home() {
       setHistory(updatedHistory);
       localStorage.setItem(
         "transcriptionHistory",
-        JSON.stringify(updatedHistory)
+        JSON.stringify(updatedHistory),
       );
     } catch (error) {
       console.error("Error:", error);
@@ -80,7 +80,7 @@ export default function Home() {
     setHistory(updatedHistory);
     localStorage.setItem(
       "transcriptionHistory",
-      JSON.stringify(updatedHistory)
+      JSON.stringify(updatedHistory),
     );
   };
 
