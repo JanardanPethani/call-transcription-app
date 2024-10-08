@@ -1,6 +1,5 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import GoogleAdsense from "./GoogleAdsense";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
