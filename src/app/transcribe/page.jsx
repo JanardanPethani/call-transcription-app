@@ -11,7 +11,7 @@ import { Separator } from "@/components/ui/separator";
 import { Upload, Mic, Trash2, AlertCircle } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
-export default function Home() {
+export default function Page() {
   const [file, setFile] = useState(null);
   const [currentUtterances, setCurrentUtterances] = useState(null);
   const [isTranscribing, setIsTranscribing] = useState(false);
